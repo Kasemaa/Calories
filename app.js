@@ -106,7 +106,7 @@ const UICtrl = (function(){
             //create html content
             let html = '';
 
-            //parse data and create list items html
+            //parse data and create list items HTML
             items.forEach(function(item){
                 html += `<li class="collection-item" id="item-${item.id}">
         <strong>${item.name}: </strong> <em>${item.calories} Calories</em>
